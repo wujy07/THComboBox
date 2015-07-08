@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0127BA1-CA8B-410C-850A-662B605A5D5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>THComboBoxExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>60092A49B3FE321DE30544818432D3FD1DFDA672</key>
+		<string>https://github.com/wujy07/THComboBox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>THComboBoxExample/THComboBoxExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>60092A49B3FE321DE30544818432D3FD1DFDA672</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wujy07/THComboBox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>60092A49B3FE321DE30544818432D3FD1DFDA672</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60092A49B3FE321DE30544818432D3FD1DFDA672</string>
+			<key>IDESourceControlWCCName</key>
+			<string>THComboBox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
