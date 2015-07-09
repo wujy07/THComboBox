@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "THComboBox.h"
+@interface ViewController : UIViewController<ComboBoxDelegate>
 
 
 @end
