@@ -1,6 +1,8 @@
 # THComboBox
 An IBDesignable custom combobox control for iOS. The text font can resize adaptively.
 
+<img src="http://wujy07.github.io/img/For github/THComboBox/THComboBox.png">
+
 ## Installation
 ### From [CocoaPods](http://www.cocoapods.org)
 
