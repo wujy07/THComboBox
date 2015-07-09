@@ -1,7 +1,7 @@
 # THComboBox
 An IBDesignable custom combobox control for iOS. The text font can resize adaptively.
 
-<img src="http://wujy07.github.io/img/For github/THComboBox/THComboBox.png">
+<img src="http://wujy.net/img/For github/THComboBox/THComboBox.png">
 
 ## Installation
 ### From [CocoaPods](http://www.cocoapods.org)
@@ -20,14 +20,15 @@ Attention:IBDesignable doesn't work with static libraries in Xcode now. Probably
 
 Create a `UIView` and change its class to `THComboBox`
 
-<img src="http://wujy07.github.io/img/For github/THComboBox/THComboBox_1-1.png">
-<img src="http://wujy07.github.io/img/For github/THComboBox/THComboBox_1-2.png">
+<img src="http://wujy.net/img/For github/THComboBox/THComboBox_1-1.png">
+<img src="http://wujy.net/img/For github/THComboBox/THComboBox_1-2.png">
 
-Change the settings in IB as you like:
+Open the Attribute Inspector, and customize the properties:
 
-<img src="http://wujy07.github.io/img/For github/THComboBox/THComboBox_2.png">
+<img src="http://wujy.net/img/For github/THComboBox/THComboBox_2.png">
 
-Then set the property listItems like this:
+Give the listItems and set the delegate:
+
 ````objective-c
 self.comboBox1.listItems = @[@"主楼",@"学堂",@"文图",@"东门"];
 self.delegate = self;		//let the viewcontroller implement ComboBoxDelegate
@@ -38,7 +39,9 @@ self.delegate = self;		//let the viewcontroller implement ComboBoxDelegate
 Very easy like this:
 
 ````objective-c
-THComboBox *comboBox1 = [[THComboBox alloc] initWithFrame:CGRectMake(200, 400, 210, 60)];
+THComboBox *comboBox2 = [[THComboBox alloc] initWithFrame:CGRectMake(200, 400, 210, 60)];
+self.comboBox2.listItems = @[@"ob-c",@"java",@"c#",@"c++"];
+self.delegate = self;		//let the viewcontroller implement ComboBoxDelegate
 ````
 Then change the settings programmatically.
 
