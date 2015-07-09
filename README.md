@@ -8,8 +8,7 @@ An IBDesignable custom combobox control for iOS. The text font can resize adapti
 
 	pod 'THComboBox'
 
-Attention:
-	    IBDesignable doesn't work with static libraries in Xcode now. Maybe this bug will be fixed in the future. So now you'd better install it from source.
+Attention:IBDesignable doesn't work with static libraries in Xcode now. Probably you'll meet [this problem](http://stackoverflow.com/questions/28391112/interface-builder-failed-to-load-designables-from-path-null/). Maybe this bug will be fixed in the future. But now you'd better install it from source. 
 ### From source
 
 * Drag the `THComboBox/` folder to your project 
