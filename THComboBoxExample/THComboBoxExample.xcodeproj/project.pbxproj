@@ -14,8 +14,8 @@
 		55E8FBC51B4D1B1B0035DA37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E8FBC41B4D1B1B0035DA37 /* Images.xcassets */; };
 		55E8FBC81B4D1B1B0035DA37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E8FBC61B4D1B1B0035DA37 /* LaunchScreen.xib */; };
 		55E8FBD41B4D1B1B0035DA37 /* THComboBoxExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E8FBD31B4D1B1B0035DA37 /* THComboBoxExampleTests.m */; };
-		55E8FBE91B4D1C330035DA37 /* drop_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E8FBE61B4D1C330035DA37 /* drop_arrow.png */; };
-		55E8FBEA1B4D1C330035DA37 /* THComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E8FBE81B4D1C330035DA37 /* THComboBox.m */; };
+		55E8FC581B4E50E10035DA37 /* drop_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E8FC551B4E50E10035DA37 /* drop_arrow.png */; };
+		55E8FC591B4E50E10035DA37 /* THComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E8FC571B4E50E10035DA37 /* THComboBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		55E8FBCD1B4D1B1B0035DA37 /* THComboBoxExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THComboBoxExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E8FBD21B4D1B1B0035DA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E8FBD31B4D1B1B0035DA37 /* THComboBoxExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THComboBoxExampleTests.m; sourceTree = "<group>"; };
-		55E8FBE61B4D1C330035DA37 /* drop_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_arrow.png; sourceTree = "<group>"; };
-		55E8FBE71B4D1C330035DA37 /* THComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THComboBox.h; sourceTree = "<group>"; };
-		55E8FBE81B4D1C330035DA37 /* THComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THComboBox.m; sourceTree = "<group>"; };
+		55E8FC551B4E50E10035DA37 /* drop_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_arrow.png; sourceTree = "<group>"; };
+		55E8FC561B4E50E10035DA37 /* THComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THComboBox.h; sourceTree = "<group>"; };
+		55E8FC571B4E50E10035DA37 /* THComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THComboBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		55E8FBB61B4D1B1B0035DA37 /* THComboBoxExample */ = {
 			isa = PBXGroup;
 			children = (
-				55E8FBE51B4D1C330035DA37 /* THComboBox */,
+				55E8FC541B4E50E10035DA37 /* THComboBox */,
 				55E8FBBB1B4D1B1B0035DA37 /* AppDelegate.h */,
 				55E8FBBC1B4D1B1B0035DA37 /* AppDelegate.m */,
 				55E8FBBE1B4D1B1B0035DA37 /* ViewController.h */,
@@ -125,14 +125,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		55E8FBE51B4D1C330035DA37 /* THComboBox */ = {
+		55E8FC541B4E50E10035DA37 /* THComboBox */ = {
 			isa = PBXGroup;
 			children = (
-				55E8FBE61B4D1C330035DA37 /* drop_arrow.png */,
-				55E8FBE71B4D1C330035DA37 /* THComboBox.h */,
-				55E8FBE81B4D1C330035DA37 /* THComboBox.m */,
+				55E8FC551B4E50E10035DA37 /* drop_arrow.png */,
+				55E8FC561B4E50E10035DA37 /* THComboBox.h */,
+				55E8FC571B4E50E10035DA37 /* THComboBox.m */,
 			);
-			path = THComboBox;
+			name = THComboBox;
+			path = ../../THComboBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E8FBE91B4D1C330035DA37 /* drop_arrow.png in Resources */,
+				55E8FC581B4E50E10035DA37 /* drop_arrow.png in Resources */,
 				55E8FBC31B4D1B1B0035DA37 /* Main.storyboard in Resources */,
 				55E8FBC81B4D1B1B0035DA37 /* LaunchScreen.xib in Resources */,
 				55E8FBC51B4D1B1B0035DA37 /* Images.xcassets in Resources */,
@@ -236,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E8FBEA1B4D1C330035DA37 /* THComboBox.m in Sources */,
+				55E8FC591B4E50E10035DA37 /* THComboBox.m in Sources */,
 				55E8FBC01B4D1B1B0035DA37 /* ViewController.m in Sources */,
 				55E8FBBD1B4D1B1B0035DA37 /* AppDelegate.m in Sources */,
 				55E8FBBA1B4D1B1B0035DA37 /* main.m in Sources */,
@@ -436,6 +437,7 @@
 				55E8FBD91B4D1B1B0035DA37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55E8FBDA1B4D1B1B0035DA37 /* Build configuration list for PBXNativeTarget "THComboBoxExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +446,7 @@
 				55E8FBDC1B4D1B1B0035DA37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

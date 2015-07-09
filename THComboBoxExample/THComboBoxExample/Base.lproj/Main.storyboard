@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="daJ-yC-Xcs" customClass="THComboBox">
-                                <rect key="frame" x="188" y="75" width="224" height="63"/>
+                                <rect key="frame" x="188" y="75" width="222" height="73"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.94901960780000005" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="arrowImage" value="drop_arrow.png"/>

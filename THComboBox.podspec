@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "THComboBox"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "an IBDesignable custom combobox control for iOS"
 
   s.description  = <<-DESC
@@ -89,8 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "THComboBox/"
-  # "THComboBoxExample/**/*.{h,m}"
+  s.source_files  = "THComboBox", "THComboBox/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
