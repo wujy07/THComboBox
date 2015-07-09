@@ -12,6 +12,7 @@ Attention:
 
 * Drag the `THComboBox/` folder to your project 
 * `#import "THComboBox.h"`
+
 ## How To Use
 
 ### With Storyboards or Xib
