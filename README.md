@@ -31,6 +31,7 @@ Change the settings in IB as you like:
 Then set the property listItems like this:
 ````objective-c
 self.comboBox1.listItems = @[@"主楼",@"学堂",@"文图",@"东门"];
+self.delegate = self;		//let the viewcontroller implement ComboBoxDelegate
 ````
 
 ### Create programmatically
