@@ -53,7 +53,7 @@
     dropListTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, button.bounds.size.height, CGRectGetWidth(self.bounds), 0)];
     dropListTableView.layer.borderWidth = 1.0;
     dropListTableView.layer.borderColor = [[UIColor blackColor] CGColor];
-    dropListTableView.layer.backgroundColor = [UIColor greenColor].CGColor;
+    dropListTableView.layer.backgroundColor = [UIColor whiteColor].CGColor;
     dropListTableView.rowHeight = button.bounds.size.height;
     //self.layer.borderWidth = _borderWidth;
     self.layer.borderColor = [[UIColor blackColor] CGColor];
